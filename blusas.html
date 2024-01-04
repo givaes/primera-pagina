@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap">
+    <title>Botón de Menú Hamburguesa</title>
+    <link rel="stylesheet" href="stylespolera.css">
+</head>
+
+<body>
+    <div class="menu-container">
+      
+        <p class="page-title">Poleras</p>
+
+        
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <div class="overlay" id="overlay"></div>
+
+       
+        <ul class="menu-items" id="menu">
+            <li class="logo-item">
+                <a href="index.html">
+                    <img src="fotos/logo.jpg" alt="Logo">
+                    <h4 class="inicio-statua"> inicio</h4>
+                    <hr class="menu-divider">
+                    
+                    <li><a href="poleras.html">Poleras</a></li>
+                    <li><a href="blusas.html">Blusas</a></li>
+                    <li><a href="chalecos.html">Chalecos</a></li>
+                    <li><a href="blazers.html">Blazers</a></li>
+                    <li><a href="chaquetas.html">Chaquetas</a></li>
+                    <li><a href="pantalones.html">Pantalones</a></li>
+                    <li><a href="kimonos.html">Kimonos</a></li>
+                    <li><a href="enteritos.html">Enteritos</a></li>
+                    <li><a href="accesorios.html">Accesorios</a></li>
+                    <hr class="menu-divider">
+                    <li><a href="#">Iniciar sesión</a></li>
+                    <li><a href="#">Registrarse</a></li>
+            </li>
+        </ul>
+    </div>
+    <div class="content-video">
+        <video autoplay loop muted>
+            <source src="fotos/blusas.mp4" type="video/mp4">
+           
+        </video>
+    </div>
+ 
+    <div class="filter-section">
+        <label for="price-filter">Ordenar por precio:</label>
+        <select id="price-filter">
+            <option value="asc">Menor a mayor</option>
+            <option value="desc">Mayor a menor</option>
+        </select>
+    </div>
+   
+    <div class="products-section">
+  
+        <div class="product-item">
+          
+            <img src="fotos/46-decd55aa-60d4-470f-9dc7-12db9705d4a5_160x.jpg" alt="Producto 1" class="product-img"
+                onmouseover="this.src='fotos/pinpo.jpg'"
+                onmouseout="this.src='fotos/46-decd55aa-60d4-470f-9dc7-12db9705d4a5_160x.jpg'">
+            <p>Descripción del Producto 1</p>
+            <p class="product-price">Precio: <span class="price-value">$25</span></p>
+        </div>
+       
+        <div class="product-item">
+            <img src="fotos/46-decd55aa-60d4-470f-9dc7-12db9705d4a5_160x.jpg" alt="Producto 2">
+            <p>Descripción del Producto 2</p>
+            <p>Talla: M</p>
+            <p class="product-price">Precio: <span class="price-value">$35</span></p>
+        </div>
+
+    <div class="product-item">
+        <img src="fotos/46-decd55aa-60d4-470f-9dc7-12db9705d4a5_160x.jpg" alt="Producto 3">
+        <p>Descripción del Producto 3</p>
+        <p>Talla: M</p>
+        <p>Precio: $30</p>
+    </div>
+    <!-- Producto 4 -->
+    <div class="product-item">
+        <img src="fotos/46-decd55aa-60d4-470f-9dc7-12db9705d4a5_160x.jpg" alt="Producto4">
+        <p>Descripción del Producto 4</p>
+        <p>Talla: M</p>
+        <p>Precio: $30</p>
+    </div>
+    <!-- Producto 5 -->
+    <div class="product-item">
+        <img src="fotos/46-decd55aa-60d4-470f-9dc7-12db9705d4a5_160x.jpg" alt="Producto 5">
+        <p>Descripción del Producto 5</p>
+        <p>Talla: M</p>
+        <p>Precio: $30</p>
+    </div>
+    <!-- Producto 6 -->
+    <div class="product-item">
+        <img src="fotos/46-decd55aa-60d4-470f-9dc7-12db9705d4a5_160x.jpg" alt="Producto 6">
+        <p>Descripción del Producto 6</p>
+        <p>Talla: M</p>
+        <p>Precio: $30</p>
+    </div>
+    <!-- Producto 7 -->
+    <div class="product-item">
+        <img src="fotos/46-decd55aa-60d4-470f-9dc7-12db9705d4a5_160x.jpg" alt="Producto 7">
+        <p>Descripción del Producto 7</p>
+        <p>Talla: M</p>
+        <p>Precio: $30</p>
+    </div>
+    <!-- Producto 8 -->
+    <div class="product-item">
+        <img src="fotos/46-decd55aa-60d4-470f-9dc7-12db9705d4a5_160x.jpg" alt="Producto 8">
+        <p>Descripción del Producto 8</p>
+        <p>Talla: M</p>
+        <p>Precio: $30</p>
+    </div>
+    <!-- Producto 9 -->
+    <div class="product-item">
+        <img src="fotos/46-decd55aa-60d4-470f-9dc7-12db9705d4a5_160x.jpg" alt="Producto 9">
+        <p>Descripción del Producto 9</p>
+        <p>Talla: M</p>
+        <p>Precio: $30</p>
+    </div>
+    <!-- Producto 10 -->
+    <div class="product-item">
+        <img src="fotos/46-decd55aa-60d4-470f-9dc7-12db9705d4a5_160x.jpg" alt="Producto 10">
+        <p>Descripción del Producto 10</p>
+        <p>Talla: M</p>
+        <p>Precio: $30</p>
+    </div>
+    <!-- Producto 11 -->
+    <div class="product-item">
+        <img src="fotos/46-decd55aa-60d4-470f-9dc7-12db9705d4a5_160x.jpg" alt="Producto 11">
+        <p>Descripción del Producto 11</p>
+        <p>Talla: M</p>
+        <p>Precio: $30</p>
+    </div>
+    <!-- Producto 12 -->
+    <div class="product-item">
+        <img src="fotos/46-decd55aa-60d4-470f-9dc7-12db9705d4a5_160x.jpg" alt="Producto 12">
+        <p>Descripción del Producto 12</p>
+        <p>Talla: M</p>
+        <p>Precio: $30</p>
+    </div>
+   
+</div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-contact">
+            <h3>Contáctanos</h3>
+            <p>Teléfono: +1234567890</p>
+            <p>Email: info@example.com</p>
+        </div>
+    </div>
+    <div class="footer-social">
+        <h3>Síguenos en redes sociales</h3>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html> 
